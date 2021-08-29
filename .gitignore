@@ -1,0 +1,7 @@
+config.py
+venv/*
+.git/*
+.idea/*
+*.dbs
+*.db
+*.pyc

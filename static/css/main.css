@@ -1,0 +1,32 @@
+ .banner {
+    text-align: center;
+    font-seze: 2em;
+    font-family: Arial, sans-serif;
+    height: 40px;
+}
+.wrap {
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: red;*/
+}
+.wrap div {
+    display: inline-block;
+    }
+#Alice {
+    float: right;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+.picture {
+    height: 200px;
+}
+#percent {
+width: 40%;
+}
+#myMoney {
+width: 40%;
+}

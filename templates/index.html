@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Евочкин Калькулятор</title>
+    <script type=text/javascript src="{{ url_for('static', filename='js/jquery-3.6.0.min.js') }}"></script>
+    <script type=text/javascript src="{{ url_for('static', filename='js/aj.js') }}"></script>
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='/css/reset.css') }}">
+    <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='/css/main.css') }}">
+
+</head>
+<body>
+    <div class="banner">
+        <h1>
+            <p>
+                <h1></h1>
+            </p>
+        </h1>
+    </div>
+    <div class="wrap">
+        <div class="picture" id="Bazilio">
+            <img src="../static/img/Bazilio.jpeg" >
+        </div>
+        <div class="form">
+            <p>Сколько у Вас денежек?</p>
+            <form action="/get_percent" method="post" name="form">
+                <input id="my_summ" name="my_summ" placeholder="Введите сумму" type="text" oninput="get_percent();">
+            </form>
+        </div>
+        <div class="picture" id="Alice">
+            <img src="../static/img/Alice.jpeg" >
+        </div>
+    </div>
+    <div class="footer">
+        <div id="percent"><h1>lksdf</h1></div>
+        <div id="myMoney">Личные деньги</div>
+    </div>
+</body>
+</html>
