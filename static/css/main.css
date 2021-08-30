@@ -1,10 +1,11 @@
  .banner {
-    text-align: center;
-    font-seze: 2em;
-    font-family: Arial, sans-serif;
+
     height: 40px;
 }
 .wrap {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
     width: 40%;
     display: block;
     margin-left: auto;
@@ -29,4 +30,7 @@ width: 40%;
 }
 #myMoney {
 width: 40%;
+}
+p {
+margin-bottom: 10px;
 }
